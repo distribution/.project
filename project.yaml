@@ -1,0 +1,70 @@
+# .project metadata for Distribution
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "distribution"
+name: "Distribution"
+description: "The toolkit to pack, ship, store, and deliver container content"
+type: "project"
+project_lead: "chrispat" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#distribution"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2021-01-26T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/1141" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/distribution/distribution"
+
+website: "https://github.com/distribution/distribution"
+
+artwork: "https://landscape.cncf.io/logos/distribution.svg"
+
+adopters:
+  path: "https://github.com/distribution/distribution/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "distribution/distribution"
+
+
+security:
+  policy:
+    path: "https://github.com/distribution/distribution/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/distribution/distribution/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/distribution/distribution/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/distribution/distribution/blob/main/CODE-OF-CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/distribution/distribution/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/distribution/distribution/blob/main/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Container Registry"
+
+# CLOMonitor Score: 83/100
+# Documentation: 97 | License: 100 | Best Practices: 53 | Security: 73
