@@ -26,7 +26,7 @@ repositories:
 
 website: "https://github.com/distribution/distribution"
 
-artwork: "https://landscape.cncf.io/logos/distribution.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/distribution"
 
 adopters:
   path: "https://github.com/distribution/distribution/blob/main/ADOPTERS.md"
